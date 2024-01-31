@@ -3,10 +3,7 @@ package EJERCICIO01;
 import javax.swing.JOptionPane;
 
 
-
-
-
-public class lista {
+public class Listaejer {
 
 	public static void main(String[] args) {
 		boolean salir = false;
@@ -71,5 +68,5 @@ class Lista{
         } }
 		JOptionPane.showMessageDialog(null, Lista.toString(), "Huecos ingresados", JOptionPane.INFORMATION_MESSAGE);
 	}
-	
 }
+	
