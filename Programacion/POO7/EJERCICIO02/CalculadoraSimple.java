@@ -40,7 +40,7 @@ public class CalculadoraSimple {
 					numero1 = Double.parseDouble(JOptionPane.showInputDialog("Introduce un numero"));
 					numero2 = Double.parseDouble(JOptionPane.showInputDialog("Introduce otro numero"));
 					calcular.division(numero1, numero2);
-					JOptionPane.showMessageDialog(null, "El resultado es "+calcular.dime_resultado());
+					JOptionPane.showMessageDialog(null, "El resultado es "+calcular.dime_resultado()+" y su resto es "+calcular.dime_resto());
 				} catch (NumberFormatException e) {
 					JOptionPane.showMessageDialog(null, "Error: Ingresa un número válido. Inténtalo de nuevo.");
 				}
@@ -124,6 +124,9 @@ class Calculadora {
 	}
 	public double dime_resultado() {
 		return resultado;
+	}
+	public double dime_resto() {
+		return resto;
 	}
 	
 }
