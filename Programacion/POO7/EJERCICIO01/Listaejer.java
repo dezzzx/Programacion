@@ -60,7 +60,7 @@ class Lista{
 		return Listageneral[contador-1];
 	}
 	public static void mostrarLista(Lista[] lista) {
-		StringBuilder Lista = new StringBuilder("Contactos ingresados:\n");
+		StringBuilder Lista = new StringBuilder("Huecos ingresados:\n");
 		for (int i = 0; i < lista.length; i++) {
         	if(lista[i] != null) {
         		Lista.append((i+1)+"\n ").append(lista[i].dime_nombre())

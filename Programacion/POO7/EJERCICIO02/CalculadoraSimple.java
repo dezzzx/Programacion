@@ -12,7 +12,7 @@ public class CalculadoraSimple {
 		while (!salir) {
 			String[] opciones = { "Suma", "Resta", "Division", "Multiplicacion", "Raiz Cuadrada", "Raiz Cubica",
 					"Salir" };
-			int seleccion = JOptionPane.showInternalOptionDialog(null, "Conversor :", "Menú",
+			int seleccion = JOptionPane.showInternalOptionDialog(null, "Calculadora :", "Menú",
 					JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, null, opciones, opciones[0]);
 			switch (seleccion) {
 			case 0: // Suma
