@@ -86,7 +86,7 @@ public class CalculadoraSimple {
 }
 
 class Calculadora {
-	private double resultado;
+	private  double resultado;
 	private double resto;
 
 	public void suma(double numero1, double numero2) {
