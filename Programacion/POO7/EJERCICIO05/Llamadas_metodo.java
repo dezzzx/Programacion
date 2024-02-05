@@ -5,13 +5,12 @@ import javax.swing.JOptionPane;
 public class Llamadas_metodo {
 
 	public static void main(String[] args) {
-		Contador contador = new Contador();
 
 		for (int i = 0; i < 5; i++) {
-            contador.realizarOperacion();
+            Contador.realizarOperacion();
         }
 
-        JOptionPane.showMessageDialog(null, "El método ha sido llamado " + contador.obtenerContadorLlamadas() + " veces.");
+        JOptionPane.showMessageDialog(null, "El método ha sido llamado " + Contador.obtenerContadorLlamadas() + " veces.");
 
 	}
 
