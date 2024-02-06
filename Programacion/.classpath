@@ -11,5 +11,6 @@
 	<classpathentry kind="src" path="POO4"/>
 	<classpathentry kind="src" path="POO3"/>
 	<classpathentry kind="src" path="POO7"/>
+	<classpathentry kind="src" path="Herencia"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
