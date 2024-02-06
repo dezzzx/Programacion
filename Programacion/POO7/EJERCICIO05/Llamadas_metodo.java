@@ -1,5 +1,5 @@
 package EJERCICIO05;
-
+//Ejercicio05
 import javax.swing.JOptionPane;
 
 public class Llamadas_metodo {

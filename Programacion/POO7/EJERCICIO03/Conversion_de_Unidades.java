@@ -14,7 +14,7 @@ public class Conversion_de_Unidades {
 			int seleccion = JOptionPane.showInternalOptionDialog(null, "Conversor :", "Menú",
 					JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, null, opciones, opciones[0]);
 			switch (seleccion) {
-			case 0: // Kilometros->MIllas
+			case 0: // Kilometros->MIllas //
 				try {
 					numero1 = Double.parseDouble(JOptionPane.showInputDialog("Introduce un numero"));
 					conversor.KmMillas(numero1);

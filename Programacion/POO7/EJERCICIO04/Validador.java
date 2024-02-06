@@ -1,5 +1,5 @@
 package EJERCICIO04;
-
+//Ejercicio 04
 import javax.swing.JOptionPane;
 
 public class Validador {
