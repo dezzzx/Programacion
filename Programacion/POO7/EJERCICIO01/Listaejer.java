@@ -29,7 +29,7 @@ public class Listaejer {
 	                    contador++;
 	                    cantidad--;
 	                } else {
-	                    JOptionPane.showMessageDialog(null, "No hay más espacio para nuevos empleados.", null, JOptionPane.ERROR_MESSAGE);
+	                    JOptionPane.showMessageDialog(null, "No hay más espacio .", null, JOptionPane.ERROR_MESSAGE);
 	                }
 	            	break;
 			case 1:
