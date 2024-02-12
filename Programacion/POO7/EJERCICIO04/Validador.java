@@ -8,7 +8,7 @@ public class Validador {
 		boolean salir = false;
 
 		while (!salir) {
-			String[] opciones = { "Validacio numero entero", "Validacion de numero decimal", "Validacion por rango del 1 al 10",
+			String[] opciones = { "ValidacioN numero entero", "Validacion de numero decimal", "Validacion por rango del 1 al 10",
 					"Fahrenheit->Celsius", "Salir" };
 			int seleccion = JOptionPane.showInternalOptionDialog(null, "Validacion :", "Menú",
 					JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, null, opciones, opciones[0]);
